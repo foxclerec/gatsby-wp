@@ -37,7 +37,7 @@ export const Wrapper = styled.nav`
       color: #000;
 
       div {
-        margin: -4px 0 0 5px;
+        margin: -6px 0 0 5px;
       }
     }
   }

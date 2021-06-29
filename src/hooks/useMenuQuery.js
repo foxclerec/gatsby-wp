@@ -1,7 +1,7 @@
 import { useStaticQuery, graphql } from "gatsby"
 
 export const useMenuQuery = () => {
-    const data = useStaticQuery(graphql`
+  const data = useStaticQuery(graphql`
     query HeaderQuery {
       site {
         siteMetadata {
@@ -28,5 +28,5 @@ export const useMenuQuery = () => {
     }
   `)
 
-    return data
+  return data
 }
